@@ -1,1 +1,2 @@
-* * * * * php pwgen.php
+* */6 * * * php pwgen.php
+* */12 * * *  php cracker.php

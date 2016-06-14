@@ -2,6 +2,7 @@
     require("config.php");
     $username = "admin";    
     $password = randStringGen(5);
+    //$password = 'ABAAA';
     print $password;
     $hashedPass = md5($password);
     $query = "UPDATE user SET password = '$hashedPass' WHERE username='$username';";
